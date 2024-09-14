@@ -27,7 +27,7 @@ class CSVView:
             if result:
                 if calculated_value is not None:  # If the color is white
                     self.result_label.config(
-                        text=f"ID: {result['id']}, Color: {result['color']}, Age: {result['age_years']} years and {result['age_months']} months, Calculation: {calculated_value}"
+                        text=f"ID: {result['id']}, Color: {result['color']}, Age: {result['age_years']} years and {result['age_months']} months, Milk Produce: {calculated_value} ,Milk Color:{result['color']}"
                     )
                 else:
                     self.result_label.config(
